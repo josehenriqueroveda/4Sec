@@ -1,1 +1,3 @@
-# sec_tools
+# PySec
+
+Python security and network scripts.
