@@ -5,7 +5,7 @@ status = {server: False for server in servers}
 
 
 def ping_server(server):
-    response = os.system("ping -n 4 -i 10 " + server)
+    response = os.system("ping -n 4 -i 10 " + server + " >nul 2>&1") # ">nul 2>&1" hide the output
     return response == 0
 
 
