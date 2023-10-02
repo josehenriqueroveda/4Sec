@@ -1,5 +1,8 @@
 # PySec: Ethical Hacking and Security Python Scripts
 
+[![Bandit](https://github.com/josehenriqueroveda/PySec/actions/workflows/bandit.yml/badge.svg)](https://github.com/josehenriqueroveda/PySec/actions/workflows/bandit.yml)
+[![Lint](https://github.com/josehenriqueroveda/PySec/actions/workflows/black.yml/badge.svg)](https://github.com/josehenriqueroveda/PySec/actions/workflows/black.yml)
+
 PySec is a collection of Python scripts that are focused on ethical and information security. The scripts in this repository are meant to demonstrate the vulnerabilities that exist in various systems and to educate users about the importance of security. The goal of PySec is to provide users with the knowledge and tools to protect their own systems and to be aware of the risks they face online.
 
 ## Disclaimer
@@ -10,11 +13,7 @@ The author of PySec do not condone the use of these scripts for malicious purpos
 
 
 ## Usage
-To use PySec, simply clone this repository to your local machine and run the scripts from the appropriate directory. The scripts are organized into three folders:
-
- - **extraction**: This folder contains scripts that can be used to extract data from the system.
- - **network**: This folder contains scripts that can be used to scan and analyze network traffic or configurations.
- - **zabbix**: This folder contains scripts that can be used to monitor the health and performance of a system using zabbix API.
+To use PySec, simply clone this repository to your local machine and run the scripts from the appropriate directory. The scripts are organized by projects folders.
  
 Before running any of the scripts, it is important to review the code and ensure that you understand what it does. Do not run any script on a system that you do not have permission to access.
 
