@@ -1,8 +1,10 @@
 import pyautogui
 import time
 
+
 def get_screen_size():
     return pyautogui.size()
+
 
 def is_position_blocked(x, y, blocked_area):
     return (
@@ -10,8 +12,10 @@ def is_position_blocked(x, y, blocked_area):
         and blocked_area[1] <= y <= blocked_area[3]
     )
 
+
 def move_to_safe_position(safe_position):
     pyautogui.moveTo(safe_position)
+
 
 def main():
     screen_width, screen_height = get_screen_size()
@@ -26,6 +30,7 @@ def main():
             time.sleep(0.01)
         except Exception:
             continue
+
 
 if __name__ == "__main__":
     main()
