@@ -1,8 +1,5 @@
 # PySec: Ethical Hacking and Security Python Scripts
 
-[![Bandit](https://github.com/josehenriqueroveda/PySec/actions/workflows/bandit.yml/badge.svg)](https://github.com/josehenriqueroveda/PySec/actions/workflows/bandit.yml)
-[![Lint](https://github.com/josehenriqueroveda/PySec/actions/workflows/black.yml/badge.svg)](https://github.com/josehenriqueroveda/PySec/actions/workflows/black.yml)
-
 PySec is a collection of Python scripts that are focused on ethical and information security. The scripts in this repository are meant to demonstrate the vulnerabilities that exist in various systems and to educate users about the importance of security. The goal of PySec is to provide users with the knowledge and tools to protect their own systems and to be aware of the risks they face online.
 
 ## Disclaimer
